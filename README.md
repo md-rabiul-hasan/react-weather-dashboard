@@ -1,23 +1,10 @@
 # React + Vite Project
 
-This project provides a minimal setup for using React with Vite, ensuring fast development with Hot Module Replacement (HMR) and a clean codebase with ESLint.
+This project are weather dashboard for learning react js
 
 ## Table of Contents
 
-- [Getting Started](#getting-started)
-- [Available Scripts](#available-scripts)
-- [Using ESLint](#using-eslint)
-- [Project Structure](#project-structure)
-- [Learn More](#learn-more)
-
-## Getting Started
-
-Follow these instructions to set up and run this project on your local machine.
-
-### Prerequisites
-
-- **Node.js** (version 14 or later) and **npm** installed on your computer.
-- Download and install Node.js from [nodejs.org](https://nodejs.org/).
+- [Live Project Link](https://react-weather-dashboard-self.vercel.app/)
 
 ### Installation
 
