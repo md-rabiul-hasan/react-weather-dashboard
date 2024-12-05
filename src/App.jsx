@@ -1,16 +1,19 @@
 import { useState } from 'react';
 import './App.css';
 import Page from './Page';
-import { WeatherProvider } from './provider';
+import { FavouriteProvider, LocationProvider, WeatherProvider } from './provider';
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <WeatherProvider>
-      <Page />
-    </WeatherProvider>
-    
+    <LocationProvider>
+      <WeatherProvider>
+        <FavouriteProvider>
+          <Page />
+        </FavouriteProvider>
+      </WeatherProvider>
+    </LocationProvider>    
   );
 }
 
